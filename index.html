@@ -10,43 +10,54 @@
     rel="stylesheet" integrity=
     "sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
     crossorigin="anonymous">
+    <link rel="stylesheet" href=
+    "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <title>Kross-Basile's Vehicles</title>
 </head>
 <body>
     <nav class=
     "mb-3 navbar navbar-expand-lg bg-dark-subtle navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Basile's Vehicles</a>
-            <button class="navbar-toggler" type="button"
-            data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation"><span class=
+            <a class="navbar-brand" href="#"><i class=
+            "bi bi-car-front-fill"></i> Kross and Basile's
+            Vehicles</a> <button class="navbar-toggler" type=
+            "button" data-bs-toggle="collapse" data-bs-target=
+            "#navbarNav" aria-controls="navbarNav" aria-expanded=
+            "false" aria-label="Toggle navigation"><span class=
             "navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current=
-                        "page" href="index.html">Página Inicial</a>
+                        "page" href="index.html"><i class=
+                        "bi bi-house-door-fill"></i> Página
+                        Inicial</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href=
-                        "produtos.html">Produtos</a>
+                        "produtos.html"><i class=
+                        "bi bi-bag-fill"></i> Produtos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href=
-                        "contratando.html">Estamos Contratando!</a>
+                        "contratando.html"><i class=
+                        "bi bi-briefcase-fill"></i> Estamos
+                        Contratando!</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href=
-                        "suporte.html">Suporte</a>
+                        "suporte.html"><i class=
+                        "bi bi-headset"></i> Suporte</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href=
-                        "redes-sociais.html">Redes Sociais</a>
+                        "redes-sociais.html"><i class=
+                        "bi bi-chat-fill"></i> Redes Sociais</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href=
-                        "sobre.html">Sobre</a>
+                        "sobre.html"><i class=
+                        "bi bi-info-circle-fill"></i> Sobre</a>
                     </li>
                 </ul>
             </div>
@@ -57,7 +68,9 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item active"
-                    aria-current="page">Página Inicial</li>
+                    aria-current="page"><i class=
+                    "bi bi-house-door-fill"></i> Página
+                    Inicial</li>
                 </ol>
             </nav>
         </div>
@@ -66,8 +79,48 @@
             <p>Participe agora do sorteio por apenas
             R$10.000,00!</p><a href=
             "https://www.youtube.com/watch?v=dQw4w9WgXcQ" class=
-            "btn btn-primary" role="button">Clique Aqui Para
-            Participar</a>
+            "btn btn-primary" role="button"><i class=
+            "bi bi-dice-6-fill"></i> Clique Aqui Para
+            Participar</a> <!-- Button trigger modal -->
+             <button type="button" class="ms-3 btn btn-primary"
+            data-bs-toggle="modal" data-bs-target=
+            "#exampleModal"><i class="bi bi-info-circle-fill"></i>
+            Saiba mais sobre os regulamentos!</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id=
+                            "exampleModalLabel">
+                            Regulamentos!</h1><button type="button"
+                            class="btn-close" data-bs-dismiss=
+                            "modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li>Apenas um participante por
+                                entrada!</li>
+                                <li>Apenas uma Lamborghini Veneno
+                                Roadster por participante!</li>
+                                <li>A entrada de 10 mil reais pode
+                                ser parcelada em até 12X sem
+                                juros!</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <a type="button" class=
+                            "btn btn-secondary" data-bs-dismiss=
+                            "modal">Fechar</a> <a href=
+                            "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                            type="button" class=
+                            "btn btn-primary">Aceitar e
+                            Participar!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div><!-- jumbotron foi mudado no bootstrap 5 -->
     </div>
     <h3 class="mt-5 text-center">Novos Lançamentos!</h3>
@@ -86,7 +139,9 @@
                         <p class="card-text">Edição Limitada!
                         Compre a nova versão da lendária
                         Lamborghini Countach!</p><a href="#" class=
-                        "btn btn-primary">Compre Agora!</a>
+                        "btn btn-primary"><i class=
+                        "bi bi-currency-dollar"></i> Compre
+                        Agora!</a>
                     </div>
                 </div>
             </div>
@@ -98,7 +153,8 @@
                         <h5 class="card-title">Bugatti Mistral</h5>
                         <p class="card-text">A nova Bugatti que
                         quer quebrar o recorde mundial!</p><a href=
-                        "#" class="btn btn-primary">Compre
+                        "#" class="btn btn-primary"><i class=
+                        "bi bi-currency-dollar"></i> Compre
                         Agora!</a>
                     </div>
                 </div>
@@ -113,7 +169,9 @@
                         <p class="card-text">A versão conversível
                         de um dos carros mais rápidos do mundo! 482
                         km/h!!!</p><a href="#" class=
-                        "btn btn-primary">Compre Agora!</a>
+                        "btn btn-primary"><i class=
+                        "bi bi-currency-dollar"></i> Compre
+                        Agora!</a>
                     </div>
                 </div>
             </div>
@@ -131,8 +189,8 @@
             "#carouselExampleCaptions" data-bs-slide-to="2"
             aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner" style=
-        "width: 98%; margin: 1% 1%; border-radius: 6px">
+        <div class="carousel-inner mx-auto rounded" style=
+        "width: 98%">
             <div class="carousel-item active">
                 <img src="imgs/utopia1.jpg" class="d-block w-100"
                 alt="Frente do Carro">
@@ -170,19 +228,9 @@
         "visually-hidden">Next</span></button>
     </div>
     <script src=
-    "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-    integrity=
-    "sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-    crossorigin="anonymous"></script>
-    <script src=
     "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity=
     "sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-    <script src=
-    "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity=
-    "sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
     crossorigin="anonymous"></script>
 </body>
 </html>
